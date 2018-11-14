@@ -1,0 +1,93 @@
+body{
+      font-family:Microsoft YaHei;
+      background-color: #000;
+}
+.wrapper{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.background{
+  width: 100%;
+  height: 100%;
+  .bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -10;
+    top: 0;
+  }
+}
+.object1{
+  color: rgb(224, 199, 131);
+  font-size: 1rem;
+  text-align: center;
+  margin-top: 2rem;
+  opacity: 0;
+}
+.object2{
+  text-align: center;
+  margin-top: 0.5rem;
+  position: relative;
+  opacity: 0;
+  .font{
+    width: 15rem;
+  }
+  .rainWrapper{
+    text-align: center;
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    .rian{
+      width:17rem;
+    }
+  }
+}
+.object3{
+  color: rgb(224, 199, 131);
+  text-align: center;
+  margin-top:2rem;
+  font-size: 1rem;
+  opacity: 0;
+}
+.object4{
+  text-align: center;
+  margin-top: 0.2rem;
+  opacity: 0;
+  img{
+    width: 6rem;
+  }
+}
+.object5{
+  text-align: center;
+  position: relative;
+  height: 20rem;
+  opacity: 0;
+  .clock{
+    height: 100%;
+  }
+  .raining{
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    text-align: center;
+    overflow: hidden;
+    top: calc((100% - 4rem)/2);
+    left: calc((100% - 6rem)/2);
+    display: flex;
+    justify-content: center;
+    span{
+      position: absolute;
+      top: 0;
+      font-size:5rem;
+      color: rgb(224, 199, 131);
+    }
+  }
+}
+.object6{
+  opacity: 0;
+  text-align: center;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="../common.css">
+    <link rel="stylesheet" href="count.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="background">
+        <img class="bg" src="background.png">
+        <div class="object1">2017届品牌开业活动盛典</div>
+        <div class="object2">
+          <img class="font" src="font.webp">
+          <div class="rainWrapper">
+              <img class="rian" src="raining.gif">
+          </div>
+        </div>
+        <div class="object3">
+          距离开业活动盛典
+        </div>
+        <div class="object4">
+          <img src="haiyou.webp">
+        </div>
+        <div class="object5">
+          <img src="clock.webp" class="clock">
+          <div class="raining">
+            <img src="raining.gif" style="height:12rem;">
+            <span>5</span>
+          </div>
+        </div>
+        <div class="object6">
+          <img src="day.webp">
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="../jquery.min.js"></script>
+<script src="../velocity.min.js"></script>
+<script src="../velocity.ui.min.js"></script>
+<script type="text/javascript">
+  $(function(){
+    var $obj1=$(".object1");
+    var $obj2=$(".object2");
+    var $obj3=$(".object3");
+    var $obj4=$(".object4");
+    var $obj5=$(".object5");
+    var mySequence1 = [
+      { e: $('.bg'), p: { scale:[1,2],opacity:[1,0] }, o: { duration: 1000,complete:function(){
+        $obj1.velocity('transition.whirlIn', { duration: 1000 });
+      }} },
+      { e: $obj2, p: { scale:[1,2],opacity:[1,0]  }, o: { duration: 600,complete:function(){
+        $obj3.velocity({translateY:[0,'-400%'],opacity:1}, { duration: 600 , easing: "easeOutCubic"});
+        $obj4.velocity({translateY:[0,'-400%'],opacity:1}, { duration: 600 , easing: "easeOutCubic"});
+      }} },
+      { e: $obj5, p: { scale:[1,0.2],opacity:1 }, o: { duration: 1000,complete:function(){
+         $('.object6').velocity({translateY:[0,'400%'],opacity:1}, { duration: 600 , easing: "easeOutCubic"});
+      }} },
+  ];
+    $.Velocity.RunSequence(mySequence1);
+  })
+</script>
