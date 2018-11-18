@@ -1,0 +1,135 @@
+body {
+    background-color: #1a1a1a;
+    color: #FF4136;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    /*position: relative;*/
+}
+.canvas_wrapper{
+  background: url('../background.jpg');
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  /*z-index: -100;*/
+}
+.qr_code{
+  position: absolute;
+    bottom: 5vw;
+    left: 5vw;
+}
+.qr_code img{
+  width: 10vw;
+
+}
+.container {
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    width: 100%;
+    top: 74vw;
+    transform: scale(0);
+    -webkit-animation: show 0.9s linear 2s;
+    animation-fill-mode : forwards;
+}
+@-webkit-keyframes show{
+  0%{
+    transform: scale(0);
+  }
+  100%{
+    transform: scale(1);
+  }
+}
+.containerTop {
+    text-align: center;
+    padding: 0;
+    top: 10vw;
+    position: absolute;
+    width: 100%;
+    transform: scale(0);
+    -webkit-animation: show 0.9s linear 2s;
+    animation-fill-mode : forwards;
+}
+.drop-top {
+    display: inline-block;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 700;
+    font-size: 12em;
+    margin-bottom: 6rem;
+    line-height: 0.8;
+    padding: 0;
+    position: relative;
+    z-index: 3;
+    -webkit-animation: pulse 0.9s linear 2s infinite;
+}
+.drop-top:after {
+    content: '心动价';
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: pulse-fade 0.9s linear 2s infinite;
+}
+.drop-k {
+    display: inline-block;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: 700;
+    font-size: 12em;
+    margin-bottom: 6rem;
+    line-height: 0.8;
+    padding: 0;
+    position: relative;
+    z-index: 3;
+    -webkit-animation: pulse 0.9s linear 2s infinite;
+}
+.drop-k:after {
+    content: '99元';
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-animation: pulse-fade 0.9s linear 2s infinite;
+}
+@-webkit-keyframes pulse {
+    0% {
+        transform: scale(1);
+        /*opacity: 0;*/
+    }
+    20% {
+        transform: scale(1.1);
+        /*opacity: 1;*/
+    }
+    30% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(1.1);
+    }
+    50% {
+        transform: scale(1);
+    }
+    100%{
+      transform: scale(1);
+    }
+}
+@-webkit-keyframes pulse-fade {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    20% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+    30% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    40% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
