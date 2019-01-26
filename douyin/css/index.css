@@ -1,0 +1,55 @@
+.wrapper{
+  width: 100%;
+  height: 100%;
+}
+.background{
+  width: 100%;
+  height: 100%;
+  /*background-image: url(bg.jpg);
+  background-size: 100% 100%;*/
+  background-blend-mode: saturation;
+  background-image: url(bg.jpg), url(bg.jpg), url(bg.jpg), url(bg.jpg), url(bg.jpg), url(bg.jpg);
+  background-size: 200%, 80%, 60%, 50%, 40%, 100%;
+  background-position: 50%, 80%, 30%, 0;
+  position: relative;
+  /*animation: colorFul .8s 20;*/
+}
+.backgroundColorFul{
+  animation: colorFul .4s 15;
+}
+@keyframes colorFul {
+  0%{
+    background-blend-mode: saturation;
+    background-image: url(bg.jpg), url(bg.jpg), url(bg.jpg), url(bg.jpg), url(bg.jpg), url(bg.jpg);
+    background-size: 200%, 80%, 60%, 50%, 40%, 100%;
+    background-position: 50%, 80%, 30%, 0;
+
+  }
+  100%{
+    background-blend-mode: initial;
+    background-image: url(bg.jpg);
+    background-size: 100%, 100%;
+    background-position: center;
+  }
+}
+.flash{
+  background-color: #fff;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  animation: flash .2s infinite;
+}
+@keyframes flash {
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity:0;
+  }
+}
+/*.collage-effect {
+  background-blend-mode: color;
+  background-image: url(bg.jpg), url(bg.jpg), url(bg.jpg), url(bg.jpg), url(bg.jpg), url(bg.jpg);
+  background-size: 200%, 80%, 60%, 50%, 40%, 100%;
+  background-position: 50%, 80%, 30%, 0;
+}*/
