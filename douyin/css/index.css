@@ -12,7 +12,7 @@
   background-size: 200%, 80%, 60%, 50%, 40%, 100%;
   background-position: 50%, 80%, 30%, 0;
   position: relative;
-  animation: colorFul .8s 20;
+  animation: flash .2s 20;
 }
 .backgroundColorFul{
   animation: colorFul .4s 15;
