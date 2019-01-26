@@ -23,13 +23,14 @@
     background-image: url(bg.jpg);
     background-size: 100%, 100%;
     background-position: center;
+    transform: scale(1);
   }
   100%{
     background-blend-mode: saturation;
     background-image: url(bg.jpg), url(bg.jpg), url(bg.jpg), url(bg.jpg), url(bg.jpg), url(bg.jpg);
     background-size: 200%, 80%, 60%, 50%, 40%, 100%;
     background-position: 50%, 80%, 30%, 0;
-
+    transform: scale(1.2);
   }
 
 }
