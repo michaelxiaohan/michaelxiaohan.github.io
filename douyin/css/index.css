@@ -12,25 +12,26 @@
   background-size: 200%, 80%, 60%, 50%, 40%, 100%;
   background-position: 50%, 80%, 30%, 0;
   position: relative;
-  /*animation: colorFul .8s 20;*/
+  animation: colorFul .8s 20;
 }
 .backgroundColorFul{
   animation: colorFul .4s 15;
 }
 @keyframes colorFul {
   0%{
+    background-blend-mode: initial;
+    background-image: url(bg.jpg);
+    background-size: 100%, 100%;
+    background-position: center;
+  }
+  100%{
     background-blend-mode: saturation;
     background-image: url(bg.jpg), url(bg.jpg), url(bg.jpg), url(bg.jpg), url(bg.jpg), url(bg.jpg);
     background-size: 200%, 80%, 60%, 50%, 40%, 100%;
     background-position: 50%, 80%, 30%, 0;
 
   }
-  100%{
-    background-blend-mode: initial;
-    background-image: url(bg.jpg);
-    background-size: 100%, 100%;
-    background-position: center;
-  }
+
 }
 .flash{
   background-color: #fff;
