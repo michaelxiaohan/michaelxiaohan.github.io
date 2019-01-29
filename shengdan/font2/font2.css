@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Wendy+One);
+body {
+    /*min-height: 100vh;
+    position: relative;
+    background: #14243E;
+    font: 16em/1 'Wendy One', Impact;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0;
+    overflow: hidden;*/
+}
+.label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial;
+    text-transform: none;
+    padding: 4px;
+    width: 100%;
+    background: #140E25;
+}
+.label a {
+    color: #fff;
+    opacity: 0.9;
+}
+.svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-top: -30px;
+}
+.svg__wrapper {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.svg__text {
+    fill: url(#stars);
+    stroke: #fff;
+    stroke-width: 5;
+    letter-spacing: .1em;
+    line-height: 100%;
+}
+/* Colorize & animate pattern */
+
+.stars-group {
+    /*white*/
+    /*yellow*/
+    /*blue*/
+}
+.stars-group polygon {
+    stroke-width: 0;
+    animation: star-stroke 2s infinite;
+}
+.stars-group polygon:nth-child(5n + 1) {
+    fill: #EFF4FA;
+    stroke: #EFF4FA;
+    opacity: .8;
+    animation-delay: -0.4s;
+}
+.stars-group polygon:nth-child(5n + 2) {
+    fill: #BF0B32;
+    stroke: #BF0B32;
+    opacity: .6;
+    animation-delay: -0.8s;
+}
+.stars-group polygon:nth-child(5n + 3) {
+    fill: #FFF;
+    stroke: #FFF;
+    opacity: .4;
+    animation-delay: -1.2s;
+}
+.stars-group polygon:nth-child(5n + 4) {
+    fill: #BF0B32;
+    stroke: #BF0B32;
+    opacity: .2;
+    animation-delay: -1.6s;
+}
+.stars-group polygon:nth-child(5n + 5) {
+    fill: #174ba0;
+    stroke: #174ba0;
+    opacity: 0;
+    animation-delay: -2s;
+}
+/* stars stroke-width animation */
+
+@keyframes star-stroke {
+    50% {
+        stroke-width: 6;
+        opacity: 1;
+    }
+}

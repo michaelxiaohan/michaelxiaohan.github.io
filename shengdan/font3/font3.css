@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Satisfy);
+body {
+    background: #000;
+}
+.lasvegas {
+    position: absolute;
+    bottom:23vh;
+    left: 50%;
+    transform: translateX(-50%);
+    transform-origin: center;
+    /*height: 100%;*/
+    width: 100%;
+    font-family: '黑体';
+    font-size: 20vw;
+    border: none;
+    color: black;
+    text-align: center;
+    color: #eee;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #771010, 0 0 70px #771010, 0 0 80px #771010, 0 0 100px #771010;
+}
+.lasvegas div{
+  font-size: 8vw;
+}
+.lasvegas span {
+    animation: blink .3s infinite alternate;
+}
+.lasvegas span.number{
+  font-size: 24vw;
+}
+.lasvegas span.delay {
+    animation-duration: 6s;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    cubic-bezier(0.5, 0.2, 0.3, 1.0)
+}
+.discount{
+  font-family: 'SimSun';
+}
+@keyframes blink {
+    0% {} 50% {} 60% {
+        text-shadow: 0 0 2px rgba(255, 255, 255, .1), 0 0 10px rgba(255, 255, 255, .4);
+        text-stroke: 2px rgba(255, 255, 255, 0.05);
+    }
+    70% {
+        text-shadow: 0 0 2px rgba(255, 255, 255, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #f7b93f, 0 0 70px #f7b93f, 0 0 80px #f7b93f, 0 0 100px #f7b93f;
+    }
+    80% {
+        text-shadow: 0 0 2px rgba(255, 255, 255, .1), 0 0 10px rgba(255, 255, 255, .4);
+        text-stroke: 2px rgba(255, 255, 255, 0.05);
+    }
+    100% {
+        text-shadow: 0 0 2px rgba(255, 255, 255, 1), 0 0 10px rgba(255, 255, 255, 1), 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 1), 0 0 40px #f7b93f, 0 0 70px #f7b93f, 0 0 80px #f7b93f, 0 0 100px #f7b93f;
+    }
+}
