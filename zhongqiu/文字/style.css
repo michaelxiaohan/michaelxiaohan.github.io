@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0
+}@font - face {
+    font - family: monoton;
+    font - style: normal;
+    font - weight: 400;
+    src: local('Monoton'),
+    local('Monoton-Regular'),
+    url(AKI - lyzyNHXByGHeOcds_w.woff) format('woff')
+}@font - face {
+    font - family: iceland;
+    font - style: normal;
+    font - weight: 400;
+    src: local('Iceland'),
+    local('Iceland-Regular'),
+    url(F6LYTZLHrG9BNYXRjU7RSw.woff) format('woff')
+}@font - face {
+    font - family: pacifico;
+    font - style: normal;
+    font - weight: 400;
+    src: local('Pacifico Regular'),
+    local('Pacifico-Regular'),
+    url(yunJt0R8tCvMyj_V4xSjafesZW2xOQ - xsNqO47m55DA.woff) format('woff')
+}@font - face {
+    font - family: pressstart;
+    font - style: normal;
+    font - weight: 400;
+    src: local('Press Start 2P'),
+    local('PressStart2P-Regular'),
+    url(8Lg6LX8 - ntOHUQnvQ0E7o3dD2UuwsmbX3BOp4SL_VwM.woff) format('woff')
+}@font - face {
+    font - family: audiowide;
+    font - style: normal;
+    font - weight: 400;
+    src: local('Audiowide'),
+    local('Audiowide-Regular'),
+    url(8XtYtNKEyyZh481XVWfVOj8E0i7KZn - EPnyo3HZu7kw.woff) format('woff')
+}@font - face {
+    font - family: vampiro one;
+    font - style: normal;
+    font - weight: 400;
+    src: local('Vampiro One'),
+    local('VampiroOne-Regular'),
+    url(Ho2Xld8UbQyBA8XLxF1_NYbN6UDyHWBl620a - IRfuBk.woff) format('woff')
+}
+body {
+    background - color: #222
+}#container {
+    width: 500px;
+    margin: auto
+}
+p {
+    text - align: center;
+    font - size: 7em;
+    margin: 20px 0
+}
+a {
+    text - decoration: none; - webkit - transition: all.5s; - moz - transition: all.5s;
+    transition: all.5s
+}
+p: nth - child(1) a {
+    color: #f17;
+    font - family: Monoton
+}
+p: nth - child(1) a: hover { - webkit - animation: neon1 1.5s ease - in-out infinite alternate; - moz - animation: neon1 1.5s ease - in-out infinite alternate;
+    animation: neon1 1.5s ease - in-out infinite alternate
+}
+p: nth - child(2) a {
+    font - size: 1.5em;
+    color: #228dff;
+    font - family: Iceland
+}
+p: nth - child(2) a: hover { - webkit - animation: neon2 1.5s ease - in-out infinite alternate; - moz - animation: neon2 1.5s ease - in-out infinite alternate;
+    animation: neon2 1.5s ease - in-out infinite alternate
+}
+p: nth - child(3) a {
+    color: #ffdd1b;
+    font - family: Pacifico
+}
+p: nth - child(3) a: hover { - webkit - animation: neon3 1.5s ease - in-out infinite alternate; - moz - animation: neon3 1.5s ease - in-out infinite alternate;
+    animation: neon3 1.5s ease - in-out infinite alternate
+}
+p: nth - child(4) a {
+    color: #b6ff00;
+    font - family: PressStart;
+    font - size: .8em
+}
+p: nth - child(4) a: hover { - webkit - animation: neon4 1.5s ease - in-out infinite alternate; - moz - animation: neon4 1.5s ease - in-out infinite alternate;
+    animation: neon4 1.5s ease - in-out infinite alternate
+}
+p: nth - child(5) a {
+    color: #f90;
+    font - family: Audiowide
+}
+p: nth - child(5) a: hover { - webkit - animation: neon5 1.5s ease - in-out infinite alternate; - moz - animation: neon5 1.5s ease - in-out infinite alternate;
+    animation: neon5 1.5s ease - in-out infinite alternate
+}
+p: nth - child(6) a {
+    color: #ba01ff;
+    font - family: Vampiro One
+}
+p: nth - child(6) a: hover { - webkit - animation: neon6 1.5s ease - in-out infinite alternate; - moz - animation: neon6 1.5s ease - in-out infinite alternate;
+    animation: neon6 1.5s ease - in-out infinite alternate
+}
+p a: hover {
+    color: #fff
+}@ - webkit - keyframes neon1 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#f17,
+        0 0 70px#f17,
+        0 0 80px#f17,
+        0 0 100px#f17,
+        0 0 150px#f17
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#f17,
+        0 0 35px#f17,
+        0 0 40px#f17,
+        0 0 50px#f17,
+        0 0 75px#f17
+    }
+}@ - webkit - keyframes neon2 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#228dff,
+        0 0 70px#228dff,
+        0 0 80px#228dff,
+        0 0 100px#228dff,
+        0 0 150px#228dff
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#228dff,
+        0 0 35px#228dff,
+        0 0 40px#228dff,
+        0 0 50px#228dff,
+        0 0 75px#228dff
+    }
+}@ - webkit - keyframes neon3 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#ffdd1b,
+        0 0 70px#ffdd1b,
+        0 0 80px#ffdd1b,
+        0 0 100px#ffdd1b,
+        0 0 150px#ffdd1b
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#ffdd1b,
+        0 0 35px#ffdd1b,
+        0 0 40px#ffdd1b,
+        0 0 50px#ffdd1b,
+        0 0 75px#ffdd1b
+    }
+}@ - webkit - keyframes neon4 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#b6ff00,
+        0 0 70px#b6ff00,
+        0 0 80px#b6ff00,
+        0 0 100px#b6ff00,
+        0 0 150px#b6ff00
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#b6ff00,
+        0 0 35px#b6ff00,
+        0 0 40px#b6ff00,
+        0 0 50px#b6ff00,
+        0 0 75px#b6ff00
+    }
+}@ - webkit - keyframes neon5 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#f90,
+        0 0 70px#f90,
+        0 0 80px#f90,
+        0 0 100px#f90,
+        0 0 150px#f90
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#f90,
+        0 0 35px#f90,
+        0 0 40px#f90,
+        0 0 50px#f90,
+        0 0 75px#f90
+    }
+}@ - webkit - keyframes neon6 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#ff00de,
+        0 0 70px#ff00de,
+        0 0 80px#ff00de,
+        0 0 100px#ff00de,
+        0 0 150px#ff00de
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#ff00de,
+        0 0 35px#ff00de,
+        0 0 40px#ff00de,
+        0 0 50px#ff00de,
+        0 0 75px#ff00de
+    }
+}@ - moz - keyframes neon1 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#f17,
+        0 0 70px#f17,
+        0 0 80px#f17,
+        0 0 100px#f17,
+        0 0 150px#f17
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#f17,
+        0 0 35px#f17,
+        0 0 40px#f17,
+        0 0 50px#f17,
+        0 0 75px#f17
+    }
+}@ - moz - keyframes neon2 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#228dff,
+        0 0 70px#228dff,
+        0 0 80px#228dff,
+        0 0 100px#228dff,
+        0 0 150px#228dff
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#228dff,
+        0 0 35px#228dff,
+        0 0 40px#228dff,
+        0 0 50px#228dff,
+        0 0 75px#228dff
+    }
+}@ - moz - keyframes neon3 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#ffdd1b,
+        0 0 70px#ffdd1b,
+        0 0 80px#ffdd1b,
+        0 0 100px#ffdd1b,
+        0 0 150px#ffdd1b
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#ffdd1b,
+        0 0 35px#ffdd1b,
+        0 0 40px#ffdd1b,
+        0 0 50px#ffdd1b,
+        0 0 75px#ffdd1b
+    }
+}@ - moz - keyframes neon4 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#b6ff00,
+        0 0 70px#b6ff00,
+        0 0 80px#b6ff00,
+        0 0 100px#b6ff00,
+        0 0 150px#b6ff00
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#b6ff00,
+        0 0 35px#b6ff00,
+        0 0 40px#b6ff00,
+        0 0 50px#b6ff00,
+        0 0 75px#b6ff00
+    }
+}@ - moz - keyframes neon5 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#f90,
+        0 0 70px#f90,
+        0 0 80px#f90,
+        0 0 100px#f90,
+        0 0 150px#f90
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#f90,
+        0 0 35px#f90,
+        0 0 40px#f90,
+        0 0 50px#f90,
+        0 0 75px#f90
+    }
+}@ - moz - keyframes neon6 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#ff00de,
+        0 0 70px#ff00de,
+        0 0 80px#ff00de,
+        0 0 100px#ff00de,
+        0 0 150px#ff00de
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#ff00de,
+        0 0 35px#ff00de,
+        0 0 40px#ff00de,
+        0 0 50px#ff00de,
+        0 0 75px#ff00de
+    }
+}@keyframes neon1 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#f17,
+        0 0 70px#f17,
+        0 0 80px#f17,
+        0 0 100px#f17,
+        0 0 150px#f17
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#f17,
+        0 0 35px#f17,
+        0 0 40px#f17,
+        0 0 50px#f17,
+        0 0 75px#f17
+    }
+}@keyframes neon2 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#228dff,
+        0 0 70px#228dff,
+        0 0 80px#228dff,
+        0 0 100px#228dff,
+        0 0 150px#228dff
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#228dff,
+        0 0 35px#228dff,
+        0 0 40px#228dff,
+        0 0 50px#228dff,
+        0 0 75px#228dff
+    }
+}@keyframes neon3 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#ffdd1b,
+        0 0 70px#ffdd1b,
+        0 0 80px#ffdd1b,
+        0 0 100px#ffdd1b,
+        0 0 150px#ffdd1b
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#ffdd1b,
+        0 0 35px#ffdd1b,
+        0 0 40px#ffdd1b,
+        0 0 50px#ffdd1b,
+        0 0 75px#ffdd1b
+    }
+}@keyframes neon4 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#b6ff00,
+        0 0 70px#b6ff00,
+        0 0 80px#b6ff00,
+        0 0 100px#b6ff00,
+        0 0 150px#b6ff00
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#b6ff00,
+        0 0 35px#b6ff00,
+        0 0 40px#b6ff00,
+        0 0 50px#b6ff00,
+        0 0 75px#b6ff00
+    }
+}@keyframes neon5 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#f90,
+        0 0 70px#f90,
+        0 0 80px#f90,
+        0 0 100px#f90,
+        0 0 150px#f90
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#f90,
+        0 0 35px#f90,
+        0 0 40px#f90,
+        0 0 50px#f90,
+        0 0 75px#f90
+    }
+}@keyframes neon6 {
+    from {
+        text - shadow: 0 0 10px#fff,
+        0 0 20px#fff,
+        0 0 30px#fff,
+        0 0 40px#ff00de,
+        0 0 70px#ff00de,
+        0 0 80px#ff00de,
+        0 0 100px#ff00de,
+        0 0 150px#ff00de
+    }
+    to {
+        text - shadow: 0 0 5px#fff,
+        0 0 10px#fff,
+        0 0 15px#fff,
+        0 0 20px#ff00de,
+        0 0 35px#ff00de,
+        0 0 40px#ff00de,
+        0 0 50px#ff00de,
+        0 0 75px#ff00de
+    }
+}@media(max - width: 650px) {#container {
+        width: 100 %
+    }
+    p {
+        font - size: 3.5em
+    }
+}
